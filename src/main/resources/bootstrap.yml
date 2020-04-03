@@ -1,0 +1,7 @@
+spring:
+   application:
+      name: dummy-eureka
+   profiles:
+      active:    
+   cloud:
+      config: ${CONFIG_SERVER_URL:http://localhost:8888} 
